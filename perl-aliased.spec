@@ -4,10 +4,10 @@
 #
 Name     : perl-aliased
 Version  : 0.34
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/aliased-0.34.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/aliased-0.34.tar.gz
-Summary  : 'Use shorter versions of class names.'
+Summary  : Use shorter versions of class names.
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-aliased-license = %{version}-%{release}
@@ -23,6 +23,7 @@ Use shorter versions of class names.
 Summary: dev components for the perl-aliased package.
 Group: Development
 Provides: perl-aliased-devel = %{version}-%{release}
+Requires: perl-aliased = %{version}-%{release}
 
 %description dev
 dev components for the perl-aliased package.
