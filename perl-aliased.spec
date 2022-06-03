@@ -4,7 +4,7 @@
 #
 Name     : perl-aliased
 Version  : 0.34
-Release  : 18
+Release  : 19
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/aliased-0.34.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/aliased-0.34.tar.gz
 Summary  : 'Use shorter versions of class names.'
@@ -98,4 +98,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/aliased.pm
+/usr/lib/perl5/*
