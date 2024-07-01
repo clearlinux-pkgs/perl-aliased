@@ -5,7 +5,7 @@
 #
 Name     : perl-aliased
 Version  : 0.34
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/aliased-0.34.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/aliased-0.34.tar.gz
 Summary  : 'Use shorter versions of class names.'
